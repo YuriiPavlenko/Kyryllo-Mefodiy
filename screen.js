@@ -1,5 +1,5 @@
 const useScreen = () => {
-    // React is fun and games untill you're hooked
+    // React is fun and games untill you're hooked (he-he)
     const output = document.getElementById("out");
     const executeButton = document.getElementById("butt");
     const flushButton = document.getElementById("flush");
@@ -10,7 +10,7 @@ const useScreen = () => {
     let currentFunction = () => {};
     const getOutput = () => currentFunction(document.getElementById("in").value);
     executeButton.addEventListener("click", () => output.value =getOutput());
-    
+
     return {
         log: (func = (val) => val) =>{
             currentFunction = func;
