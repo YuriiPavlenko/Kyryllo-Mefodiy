@@ -1,0 +1,26 @@
+*{
+    background-color:aliceblue;
+}
+
+.container{
+    text-align:center;
+    margin-top: 10px;
+}
+
+input{
+    background-color: grey;
+    font-size: x-large;
+    width: 400px;
+    height: 50px;
+}
+
+#out{
+    background-color: bisque;
+}
+
+button{
+    background-color: red;
+    font-size: x-large;
+    width: 400px;
+    height: 150px;
+}
