@@ -1,5 +1,5 @@
 const useScreen = () => {
-    // React is fun and games untill you're hooked (he-he)
+    // React is fun and games untill you're hooked (he-he)  :D
     const output = document.getElementById("out");
     const executeButton = document.getElementById("butt");
     const flushButton = document.getElementById("flush");
