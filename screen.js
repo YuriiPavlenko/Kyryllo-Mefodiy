@@ -8,7 +8,10 @@ const useScreen = () => {
   flushButton.addEventListener("click", flush);
 
   let currentFunction = () => {};
-  const getOutput = () => currentFunction(document.getElementById("in").value);
+  const getOutput = () => {
+    const argumentsAray = document.getElementById("in").value.split(", ");
+    return currentFunction(...argumentsAray);
+  };
   executeButton.addEventListener("click", () => (output.value = getOutput()));
 
   return {
