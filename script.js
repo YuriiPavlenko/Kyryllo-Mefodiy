@@ -1,4 +1,6 @@
 import useScreen from "./screen.js";
+import setTyper from "./typer.js";
+setTyper();
 const screen = useScreen();
 
 function getManufacturingDate(carName) {
